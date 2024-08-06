@@ -27,6 +27,8 @@ lattice_points2 = generate_lattice_points(basis2, range_vals)
 
 
 
+
+
 plt.scatter(lattice_points1[:, 0], lattice_points1[:, 1], color='black', s=10)
 plt.quiver(0, 0, *basis1[0], color='r', scale=1, scale_units='xy', angles='xy', width=0.004)
 plt.quiver(0, 0, *basis1[1], color='r', scale=1, scale_units='xy', angles='xy', width=0.004)
